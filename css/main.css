@@ -1,0 +1,263 @@
+.onlymobile{
+    display: none;
+}
+.tfilogo {
+    width: 10vw;
+    padding-top: 0.3em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    color: #14248A;
+}
+
+body {
+    font-family: 'Futura PT', sans-serif;
+    background-color: #F2E5D7;
+    font-size: 1.2em;
+}
+
+#hi, #quest, #collab, #instiothers, #instiself, #instiindia, .aheadheading {
+    font-size: 1.8em;
+}
+
+#hi {
+    margin-top: 0;
+}
+
+#hithere {
+    font-size: 2em;
+}
+
+.scrolldown {
+    width: 8vw;
+    display: block;
+    margin: 0em auto;
+}
+
+#hitheretext {
+    font-size: 1.2em;
+}
+
+header{
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.leftHeader{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightHeader{
+    width: 70vw;
+    margin-right: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.navlink {
+    margin-left: 3em;
+}
+
+.aboutme{
+    margin-top: 1em;
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutme2{
+    margin-top: 1em;
+    height: 65vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutmetext {
+    width: 40vw;
+    text-align: justify;
+}
+
+.abouttext {
+    width: 70vw;
+    text-align: justify;
+}
+
+.school{
+    margin-top: 1em;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.schooltext {
+    width: 40vw;
+}
+
+.mydpimg {
+    height: 50vh;
+}
+
+.aboutmeimage {
+    height: 80vh;
+}
+
+.dpimg {
+    width: 25vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.questtext, .collabtext {
+    width: 52vw;
+}
+
+.questseekers{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+}
+
+.questseekersimg {
+    height: 35vh;
+}
+
+.collabimg {
+    height: 47vh;
+}
+
+.collab {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.lothers, .lself, .lindia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lotherscontent, .lselfcontent, .lindiacontent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.lselfcontent{
+    flex-direction: column;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.selfvideo {
+    width: 25vw;
+    margin: 1em;
+    margin-right: 2em;
+}
+
+.class {
+    margin-top: 1em;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.class2 {
+    margin-top: 1em;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.classtext {
+    width: 60vw;
+    text-align: justify;
+}
+
+.classtext2 {
+    width: 50vw;
+    text-align: justify;
+}
+
+.here{
+    text-decoration: underline;
+}
+
+.ahead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aheadcontent {
+    width: 90vw;
+    text-align: justify;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    .onlymobile {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5em;
+        text-align: center;
+        align-items: center;
+    }
+    .fullSite {
+        display: none;
+    }
+}
